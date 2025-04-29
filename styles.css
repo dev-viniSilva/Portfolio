@@ -1,0 +1,188 @@
+body {
+    background-color: #021526;
+    
+}
+
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main {
+    margin: 8em;
+}
+
+.ul-header {
+    align-items: center;
+    display: flex;
+    gap: 15em;
+    list-style-type: none;
+}
+
+.li-header {
+    display: flex;
+    gap: 1.2em;
+}
+
+.h2-header {
+    color: white;
+    font-family: "Viga", sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.a-header {
+    margin: 1em;
+    text-decoration: none;
+    font-family: "Viga";
+    font-size: 1.4em;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 30px;
+    color: #ffffff;
+    background-color: #021526;
+    transition: all 0.6s ease;
+}
+
+.a-header:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+.h2-vinicius {
+    margin-top: 3em;
+    color: #ffffff;
+    font-family: "Viga";
+    text-align: center;
+    font-size: 5em;
+}
+
+.strong-silva {
+    color: black;
+    font-family: "Viga";
+}
+
+.strong-front {
+    color: rgb(0, 0, 0);
+}
+
+.skills-icon {
+    width: 50px;
+}
+
+.img-vini {
+    border-radius: 12px;
+}
+
+.h2-skills {
+    color: white;
+    font-family: "Viga";
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;
+}
+
+.ul-skills {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.li-skills {
+    border: 2px solid white;
+    width: 5em;
+    border-radius: 12px;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.8em;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: "Viga";
+    transition: all 0.5s ease;
+}
+
+.li-skills:hover {
+    transform: scale(1.1);
+}
+
+footer {
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-footer {
+     transition: all 0.4s ease-in;
+    width: 2.4em;
+    margin: 0.3em;
+}
+
+.img-footer:hover {
+    transition: all 0.6s ease-in-out;
+    transform: scale(1.1);
+}
+
+.h2-footer {
+    color: #ffffff;
+    font-family: "Viga";
+    font-weight: 100;
+}
+
+.aa {
+    width: 400px;
+    box-shadow: 12px 20px 12px ;
+}
+
+@media (max-width: 768px) {
+    main {
+      margin: 2em;
+    }
+  
+    header {
+        position: relative;
+    }
+    .ul-header {
+      flex-direction: column;
+      gap: 1em;
+    }
+  
+    .ul-skills {
+      flex-direction: column;
+      gap: 2em;
+    }
+  
+    .li-skills {
+      width: 80%;
+    }
+  
+    .h2-vinicius {
+      font-size: 3em;
+    }
+  
+    .h2-skills {
+      font-size: 2em;
+    }
+  
+    .a-header {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+
+    footer {
+        position: relative;
+    }
+  }
+  
